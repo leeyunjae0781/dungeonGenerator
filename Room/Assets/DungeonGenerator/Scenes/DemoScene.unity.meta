@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 54f3e072570941a478882f628471f997
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298437
+  packageName: 2D Procedural Dungeon Generator
+  packageVersion: 1.0.0
+  assetPath: Assets/DungeonGenerator/Scenes/DemoScene.unity
+  uploadId: 700498

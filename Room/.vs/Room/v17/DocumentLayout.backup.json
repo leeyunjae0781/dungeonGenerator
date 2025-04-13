@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dbswo\\Room\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|c:\\users\\dbswo\\room\\assets\\dungeongenerator\\scripts\\mapgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\dungeongenerator\\scripts\\mapgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|c:\\users\\dbswo\\room\\assets\\scripts\\mapsc\\roomfirstdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\roomfirstdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\corriderfirstdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\corriderfirstdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\abstractdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\abstractdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17450299-CBB7-F56B-B25F-2907AB5B5C59}|Assembly-CSharp-Editor.csproj|C:\\Users\\dbswo\\Room\\assets\\editor\\randomdungeongeneratoreditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17450299-CBB7-F56B-B25F-2907AB5B5C59}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\randomdungeongeneratoreditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\data\\simplerandomwalkso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\data\\simplerandomwalkso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\simplerandomwalkdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\simplerandomwalkdungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\proceduralgenerationalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\proceduralgenerationalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\tilemapvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\tilemapvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\tilemap\\mytile\\newcustomruletile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\tilemap\\mytile\\newcustomruletile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|C:\\Users\\dbswo\\Room\\assets\\scripts\\mapsc\\wallgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13895069-5644-BA72-48BD-816C5C55FC7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapsc\\wallgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MapGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\DungeonGenerator\\Scripts\\MapGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\DungeonGenerator\\Scripts\\MapGenerator.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\DungeonGenerator\\Scripts\\MapGenerator.cs",
+              "RelativeToolTip": "Assets\\DungeonGenerator\\Scripts\\MapGenerator.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAADwv+cAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:00:11.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimpleRandomWalkSO.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\Data\\SimpleRandomWalkSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\Data\\SimpleRandomWalkSO.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\Data\\SimpleRandomWalkSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\Data\\SimpleRandomWalkSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:18:29.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RandomDungeonGeneratorEditor.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Editor\\RandomDungeonGeneratorEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\RandomDungeonGeneratorEditor.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Editor\\RandomDungeonGeneratorEditor.cs",
+              "RelativeToolTip": "Assets\\Editor\\RandomDungeonGeneratorEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:16:29.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewCustomRuleTile.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\tilemap\\MyTile\\NewCustomRuleTile.cs",
+              "RelativeDocumentMoniker": "Assets\\tilemap\\MyTile\\NewCustomRuleTile.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\tilemap\\MyTile\\NewCustomRuleTile.cs",
+              "RelativeToolTip": "Assets\\tilemap\\MyTile\\NewCustomRuleTile.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:11:19.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TilemapVisualizer.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\TilemapVisualizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\TilemapVisualizer.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\TilemapVisualizer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\TilemapVisualizer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:05:09.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WallGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\WallGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\WallGenerator.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\WallGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\WallGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:04:51.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AbstractDungeonGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\AbstractDungeonGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\AbstractDungeonGenerator.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\AbstractDungeonGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\AbstractDungeonGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:13:24.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomFirstDungeonGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\RoomFirstDungeonGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\RoomFirstDungeonGenerator.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\RoomFirstDungeonGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\RoomFirstDungeonGenerator.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:51:16.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorriderFirstDungeonGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\CorriderFirstDungeonGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\CorriderFirstDungeonGenerator.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\CorriderFirstDungeonGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\CorriderFirstDungeonGenerator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:29:47.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProceduralGenerationAlgorithms.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\ProceduralGenerationAlgorithms.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\ProceduralGenerationAlgorithms.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\ProceduralGenerationAlgorithms.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\ProceduralGenerationAlgorithms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:17:10.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SimpleRandomWalkDungeonGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\SimpleRandomWalkDungeonGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapSC\\SimpleRandomWalkDungeonGenerator.cs",
+              "ToolTip": "C:\\Users\\dbswo\\Room\\Assets\\Scripts\\MapSC\\SimpleRandomWalkDungeonGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapSC\\SimpleRandomWalkDungeonGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:29:58.33Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
