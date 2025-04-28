@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edced146eb0bb5c4195931f1094f95e8, type: 3}
   m_Name: SimpleRandomWalkRarameters_Island
   m_EditorClassIdentifier: 
-  iterations: 4
-  walkLength: 200
+  iterations: 3
+  walkLength: 100
   startRandomlyEachIteration: 0

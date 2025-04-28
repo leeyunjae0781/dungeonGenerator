@@ -7,13 +7,16 @@ using static DelaunayTriangulation;
 using Random = UnityEngine.Random;
 
 
-public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
+public class RoomFirstDungeonGenerator : AbstractDungeonGenerator
 {
     public int minRoomWidth = 4, minRoomHeight = 4;
     public int dungeonWidth = 20, dungeonHeight = 20;
     [Range(0, 10)]
     public int offset = 1;
     public bool randomWalkRooms = false;
+
+    [SerializeField]
+    protected SimpleRandomWalkSO randomWalkParameters;
 
     protected override void RunProceduralGeneration()
     {
@@ -41,12 +44,12 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
         }
         else
         {
-            floor = CreateSimpleRooms(roomList);
+            floor = CreateSimpleRooms(roomList, Center_Floor_Set);
         }
-
         // 길찾기, 통로연결
         HashSet<Vector2Int> corridors = ConnectRooms(Center_Floor_Set);
         floor.UnionWith(corridors);
+
 
         // 타일 칠하기, 벽 칠하기
         tilemapVisualizer.PaintFloorTiles(floor);
@@ -96,20 +99,43 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
         return floor;
     }
 
+    protected HashSet<Vector2Int> RunRandomWalkWithBound(SimpleRandomWalkSO parameters, Vector2Int position, BoundsInt roomBounds)
+    {
+        var currentPosition = position;
+
+        HashSet<Vector2Int> floorPositions = new HashSet<Vector2Int>();
+
+        for (int i = 0; i < parameters.iterations; i++)
+        {
+            var path = ProceduralGenerationAlgorithms.SimpleRandomWalkWithBounds(currentPosition, parameters.walkLength, roomBounds);
+            floorPositions.UnionWith(path);
+
+            if (parameters.startRandomlyEachIteration)
+                currentPosition = floorPositions.ElementAt(Random.Range(0, floorPositions.Count));
+        }
+        return floorPositions;
+
+    }
+
     // 랜덤워크 안 할때
-    private HashSet<Vector2Int> CreateSimpleRooms(List<BoundsInt> roomList)
+    private HashSet<Vector2Int> CreateSimpleRooms(List<BoundsInt> roomList, Dictionary<Vector2Int, HashSet<Vector2Int>> Center_Floor_Set)
     {
         HashSet<Vector2Int> floor = new HashSet<Vector2Int>();
         foreach (var room in roomList)
         {
+            HashSet<Vector2Int> roomfloor = new HashSet<Vector2Int>();
             for (int col = 0; col < room.size.x; col++)
             {
                 for (int row = 0; row < room.size.y; row++)
                 {
                     Vector2Int position = new Vector2Int(room.min.x + col, room.min.y + row);
                     floor.Add(position);
+                    roomfloor.Add(position);
                 }
             }
+
+            Center_Floor_Set[new Vector2Int((int)room.center.x, (int)room.center.y)] = roomfloor;
+
         }
         return floor;
     }
@@ -157,7 +183,7 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
         // 간선 잇기
         foreach (var item in mst)
         {
-            Debug.Log(item.v0 + " , " + item.v1 + " , " + item.weight);
+            
             Vector2Int Room1 = new Vector2Int((int)item.v0.x, (int)item.v0.y);
             Vector2Int Room2 = new Vector2Int((int)item.v1.x, (int)item.v1.y);
             List<Vector2Int> newCorrior = CreateCorridor(Room1, Room2);
@@ -221,8 +247,14 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
                 }
                 else { randomvar += 5; }
             }
+
+            
+
             corridor.Add(position);
         }
+
+        // 통로크기 3x3으로 키우는 함수
+        // corridor = IncreaseCorridorBrush3by3(corridor);
         return corridor;
     }
 }
