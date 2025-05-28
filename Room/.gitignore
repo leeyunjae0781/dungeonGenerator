@@ -1,16 +1,37 @@
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Ll]ogs/
+
+# Rider
+.idea/
+*.sln
+*.csproj
+
+# Visual Studio
+.vscode/
+.vs/
+
+# Unity settings
 UserSettings/
 
-# OS
+# Asset meta files should be included!
+*.pidb
+*.booproj
+
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# VS/IDE
-.vscode/
-*.csproj
-*.sln
-*.user
+# Crash logs
+sysinfo.txt
+
+# Unity Package Manager
+Packages/packages-lock.json
+
+# Large file exclusions (optional)
+*.apk
+*.aab
