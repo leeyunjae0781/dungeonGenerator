@@ -72,8 +72,5 @@ public class Weapon : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(angle+60-90,angle-60-90,timer*swing_casting_speed), Vector3.forward);
 
         //(Mathf.Lerp(angle-45,angle,Time.deltaTime))
-
-
-        Debug.Log("공격");
     }
 }

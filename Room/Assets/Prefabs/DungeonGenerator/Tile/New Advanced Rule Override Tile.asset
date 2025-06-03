@@ -15,12 +15,12 @@ MonoBehaviour:
   m_Tile: {fileID: 11400000, guid: dbd754f7394e7b745bb777d4f37fd505, type: 2}
   m_Sprites: []
   m_GameObjects: []
-  m_InstanceTile: {fileID: 8351758006656281443}
+  m_InstanceTile: {fileID: 6035753038671985950}
   m_DefaultSprite: {fileID: 0}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_OverrideTilingRules: []
---- !u!114 &8351758006656281443
+--- !u!114 &6035753038671985950
 MonoBehaviour:
   m_ObjectHideFlags: 8
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29,7 +29,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+  m_Script: {fileID: 11500000, guid: 664f0825886866445a96955221dc5307, type: 3}
   m_Name: New Rule Tile (Override)
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 0}
@@ -205,3 +205,6 @@ MonoBehaviour:
     - {x: 0, y: -1, z: 0}
     - {x: 1, y: -1, z: 0}
     m_RuleTransform: 0
+  alwaysConnect: 0
+  tilesToConnect: []
+  checkSelf: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: -1250940202, guid: 6b9d0d29cc59e6e449256b366207e2a8, type: 3}
   m_DefaultGameObject: {fileID: 0}
-  m_DefaultColliderType: 2
+  m_DefaultColliderType: 1
   m_TilingRules:
   - m_Id: 11
     m_Sprites:
@@ -187,5 +187,5 @@ MonoBehaviour:
     m_RuleTransform: 0
   alwaysConnect: 0
   tilesToConnect:
-  - {fileID: 11400000, guid: 7cb7a1bcb735f3c4f8d1d96dabf1b2c9, type: 2}
+  - {fileID: 0}
   checkSelf: 0

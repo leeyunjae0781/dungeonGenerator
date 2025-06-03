@@ -1,19 +1,26 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "MonsterData_", menuName = "Monsters/Data")]
+[CreateAssetMenu(fileName = "monsterDataSO_", menuName = "Monster/MonsterData")]
 public class MonsterDataSO : ScriptableObject
 {
-    [Header("ê¸°ë³¸ ìŠ¤íƒ¯")]
-    public float health = 3f;
-    public float speed = 2f;
-    
-    [Header("ì „íˆ¬ ìŠ¤íƒ¯")]
-    public float attackRange = 1.5f;
-    public float attackCooldown = 1.5f;
-    public float attackDamage = 1f;
-    
-    [Header("ê°ì§€ ì„¤ì •")]
-    public float detectionRadius = 5f;
-    public float stopChaseDistance = 20f;
-    public float detectionInterval = 0.5f;
+
+    [Header("¸ó½ºÅÍ ½ºÅİ")]
+    [Tooltip("ÀÌµ¿¼Óµµ")] public float moveSpeed;
+    [Tooltip("Å¸°Ù ÇÃ·¹ÀÌ¾î¿ÍÀÇ °Å¸®°¡ attackRange¸¸Å­ ÁÙ¾îµé¸é °ø°İ ½ÇÇà")] public float attackRange;
+    [Tooltip("ÃÖ´ë Ã¼·Â")] public int maxHealth;
+
+    [Header("ÇÃ·¹ÀÌ¾î ÀÎÁö°ü·Ã")]
+    [Tooltip("¸î ÃÊ ¸¶´Ù °¨Áö¸¦ ½ÇÇà ÇÒ Áö °áÁ¤")] public float detectionInterval;  // °¨Áö ÁÖ±â
+    [Tooltip("ÇÃ·¹ÀÌ¾î¸¦ °¨ÁöÇÏ´Â ¿øÀÇ ¹İÁö±İÀ» Á¤ÀÇ")] public float detectionRange;      // Å½Áö ¹İ°æ
+    [Tooltip("ÇÃ·¹ÀÌ¾î¿ÍÀÇ °Å¸®°¡ ¾ó¸¶³ª ¹ú¾îÁö¸é Ãß°İÀ» ±×¸¸ µÑ Áö °áÁ¤")] public float stopChaseDistance;   // ÃßÀû Áß´Ü °Å¸®
+
+    [Header("°ø°İ Å¸ÀÔ")]
+    [Tooltip("¾î¶² Å¸ÀÔÀ¸·Î °ø°İ ÇÒ Áö")] public AttackType attackType;
+
+    public enum AttackType
+    {
+        Dash,
+        Projectile,
+        AoE
+    }
 }
